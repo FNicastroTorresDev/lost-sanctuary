@@ -1,0 +1,72 @@
+:root {
+  --bg-azul-oscuro: #0a081d;
+  --bg-azul-semiclaro: #031e49;
+  --bg-azul-claro: #1d6a96;
+  --bg-plata-armadura: #c0e2e2;
+  --bg-dorado-armadura: #fdf98f;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  background: black url(../images/stars.png) repeat top center;
+}
+
+.twinkling { 
+  width:100%;
+  height:100vh;
+  background: transparent url(../images/twinkling.png) repeat top center;
+  animation: move-twink-back 200s linear infinite;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+h4 {
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+@keyframes move-twink-back {
+  from {background-position:0 0;}
+  to {background-position:-10000px 5000px;}
+}
+
+.logo {
+  height: 200px;
+  width: 284px;
+  margin: 8px auto;
+}
+
+.button {
+  padding: 8px 16px;
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  margin: 16px auto;
+}
+
+.button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+ 

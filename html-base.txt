@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Facu Nicastro Torres">
+    <meta name="description" content="Lost Sanctuary es un fanfic no oficial de Saint Seiya basado en el manga de Masami Kurumada escrito y dibujado por Sergio Ledesma. Todos los derechos reservados por M. Kurumada/Toei animotion.co.ito/shueisha.">
+    <meta name="keywords" content="Saint Seiya, Fanfic, Lost Sanctuary, Sergio Ledesma, Historieta, Tucuman, Argentina">
+    <meta name="location" content="San Miguel de Tucumán, Tucumán, Argentina">
+
+    <title>LOST SANCTUARY FANFIC</title>
+
+    <link rel="shortcut icon" href="images/logo_fullcolor.png" type="image/x-icon">
+
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style.css">
+  </head>
+  <body>
+    <header>
+      <div class="logo-section">
+        <a href="#"><img src="images/logo_fullcolor.png" class="logo" alt="Logo Lost Sanctuary Full Color"></a>
+        <h1 id="title" class="title-site">Fanfic de <i>Saint Seiya</i></h1>
+      </div>
+
+      <nav class="navbar">
+        <ul>
+          <li><a href="pages/404.html" class="nav-link">CAPÍTULOS</a></li>
+          <li><a href="pages/404.html" class="nav-link">PERSONAJES</a></li>
+          <li><a href="pages/404.html" class="nav-link">AUTOR</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="twinkling">
+
+    </main>
+
+    <footer>
+      <img src="images/logo_grey.png" class="logo-footer" alt="Logo Lost Sanctuary Full Color">
+      <section id="social-media">
+        <a href="https://www.facebook.com/sslostsanctuary" class="social-link" target="_blank"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.instagram.com/sslostsanctuary/" class="social-link" target="_blank"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.youtube.com/channel/UCozi2T3d9tHqvPxrM2oCH8A" class="social-link" target="_blank"><i class="bi bi-youtube"></i></a>
+      </section>
+      <small>
+        Lost Sanctuary es un fanfic no oficial basado en el manga Saint Seiya de Masami Kurumada.
+        <br>
+        Todos los derechos reservados por M. Kurumada/Toei animotion.co.ito/Shueisha.
+        <br>
+        2020-2022
+      </small>
+    </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>

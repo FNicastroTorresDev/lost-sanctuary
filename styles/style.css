@@ -1,0 +1,265 @@
+:root {
+  --bg-azul-oscuro: #0a081d;
+  --bg-azul-semiclaro: #031e49;
+  --bg-azul-claro: #1d6a96;
+  --bg-plata-armadura: #c0e2e2;
+  --bg-dorado-armadura: #fdf98f;
+  --dorado-logo: #d4cc28;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+header {
+  background-image: linear-gradient(45deg, var(--bg-azul-oscuro), var(--bg-azul-claro), var(--bg-azul-semiclaro));
+  width: 100%;
+  padding: 50px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  margin-bottom: auto;
+}
+
+body {
+  background: black url(../images/stars.png) repeat top center;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 20px;
+  margin: 0;
+}
+
+a:hover {
+  color: var(--bg-dorado-armadura);
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo {
+  height: 80px;
+  width: auto;
+  margin: 0px 20px 0px 40px;
+}
+
+.title-site {
+  font-size: 1rem;
+}
+
+.navbar {
+  display: block;
+}
+
+.shingo {
+  height: 100px;
+  width: auto;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar ul li {
+  padding: 0px 20px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.nav-link:hover {
+  color: var(--bg-dorado-armadura);
+}
+
+@keyframes move-twink-back {
+  from {background-position:0 0;}
+  to {background-position:-10000px 5000px;}
+}
+
+.twinkling {
+  width:100%;
+  height:100%;
+  background:transparent url(../images/twinkling.png) repeat top center;
+  animation: move-twink-back 200s linear infinite;
+}
+
+.slider-sec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider-custom {
+  height: 90vh;
+  max-width: 580px;
+  overflow: hidden;
+}
+
+.image-slider {
+  height: 85vh;
+  padding: 0px 80px;
+}
+
+.chapters-sec {
+  width: 580px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.chapters-sec h2 {
+  color: var(--bg-plata-armadura);
+  margin: 4px auto;
+  text-align: center;
+}
+
+.chapters-sec .container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.chapter-card {
+  border-top: 3px solid var(--dorado-logo);
+  border-bottom: 3px solid var(--dorado-logo);
+  width: 40%;
+  position: relative;
+  margin: 8px 0px;
+}
+
+.chapter-card img {
+  width: 100%;
+  height: 100%;
+}
+
+.chapter-card h4 {
+  position: absolute;
+  top: 0;
+  padding: 10px;
+  font-size: 1rem;
+  background: rgba(0, 0, 0, 0.4);
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+
+.opening-sec {
+  margin: 10px auto 20px;
+}
+
+.opening-sec h2 {
+  color: var(--bg-plata-armadura);
+  margin: 4px auto;
+  text-align: center;
+}
+
+.opening-sec h3 {
+  color: var(--bg-plata-armadura);
+  margin: 100px auto;
+  text-align: center;
+}
+
+.button {
+  padding: 8px 16px;
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  margin: 16px auto;
+}
+
+.button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+footer {
+  padding: 1em 0;
+  background-color: var(--bg-azul-oscuro);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: auto;
+}
+
+.logo-footer {
+  height: 100px;
+  width: 142px;
+}
+
+.social-link {
+  color: white;
+  font-size: 2.5rem;
+  margin: auto 20px;
+}
+
+footer small {
+  color: white;
+  border-top: 1px solid white;
+  width: 100%;
+  margin: 10px 0px;
+  padding: 10px 0px;
+  text-align: center;
+}
+
+@media screen and (max-width: 576px) {
+  header {
+    flex-direction: column;
+  }
+  .navbar {
+    width: 100%;
+  }
+  .navbar ul {
+    margin: 2px auto;
+    text-align: center;
+  }
+  .navbar ul li {
+    padding: 0px 8px;
+  }
+  .nav-link {
+    font-size: 0.9rem;
+  }
+  .logo-section {
+    margin: 0px auto;
+  }
+  .logo {
+    margin: 0px 20px 0px 0px;
+  }
+  .shingo {
+    display: none;
+  }
+  .slider-custom {
+    height: 80vh;
+    width: 100%;
+  }
+  .chapters-sec {
+    width: 100%;
+  }
+  .image-slider {
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+  .video {
+    width: 90%;
+  }
+}
+
